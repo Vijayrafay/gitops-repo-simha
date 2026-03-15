@@ -4,11 +4,8 @@ metadata:
   name: dockeronprem
   project: defaultproject
 spec:
+  active: true
   cluster:
-    name: simha-new-rctl
-  sharing:
-    enabled: true
-    projects:
-    - name: '*'
+    name: simha-mks
   type: Cluster
   version: r4.0.1
