@@ -9,7 +9,6 @@ metadata:
 spec:
   limitRange: {}
   namespaceMeshPolicyParams: {}
-  networkPolicyParams: {}
   placement:
     labels:
     - key: rafay.dev/clusterName

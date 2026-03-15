@@ -5,6 +5,7 @@ metadata:
   project: defaultproject
 spec:
   limitRange: {}
+  namespaceMeshPolicyParams: {}
   placement:
     labels:
     - key: rafay.dev/clusterName

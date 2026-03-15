@@ -24,4 +24,6 @@ metadata:
     rep-workloadid: 5pk0lk6
   name: ns-930181590
   project: defaultproject
-spec: {}
+spec:
+  namespaceMeshPolicyParams: {}
+  resourceQuotas: {}

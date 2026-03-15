@@ -3,4 +3,6 @@ kind: Namespace
 metadata:
   name: default-onprem-qa
   project: defaultproject
-spec: {}
+spec:
+  namespaceMeshPolicyParams: {}
+  resourceQuotas: {}

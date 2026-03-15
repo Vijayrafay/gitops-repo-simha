@@ -12,4 +12,6 @@ metadata:
     rep-project: rx28oml
   name: rauto-ns-933182823
   project: defaultproject
-spec: {}
+spec:
+  namespaceMeshPolicyParams: {}
+  resourceQuotas: {}
