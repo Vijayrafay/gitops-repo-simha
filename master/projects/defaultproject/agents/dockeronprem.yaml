@@ -1,0 +1,14 @@
+apiVersion: gitops.k8smgmt.io/v3
+kind: Agent
+metadata:
+  name: dockeronprem
+  project: defaultproject
+spec:
+  cluster:
+    name: simha-new-rctl
+  sharing:
+    enabled: true
+    projects:
+    - name: '*'
+  type: Cluster
+  version: r4.0.1

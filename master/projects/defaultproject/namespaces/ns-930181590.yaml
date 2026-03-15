@@ -1,0 +1,27 @@
+apiVersion: infra.k8smgmt.io/v3
+kind: Namespace
+metadata:
+  annotations:
+    meta.helm.sh/release-name: namespace-jkeg4mw-ns-930181590
+    meta.helm.sh/release-namespace: ns-930181590
+    rep-drift-action: deny
+  labels:
+    app.kubernetes.io/managed-by: Helm
+    k8smgmt.io/project: defaultproject
+    k8smgmt.io/update-time: "1773318252036343707"
+    kubernetes.io/metadata.name: ns-930181590
+    name: ns-930181590
+    rep-cluster: pkvev2n
+    rep-cluster-name: rauto-k3d-28670
+    rep-drift-reconcillation: enabled
+    rep-organization: 7w2lnkp
+    rep-partner: pd270k4
+    rep-placement: qko442n
+    rep-project: rx28oml
+    rep-project-name: defaultproject
+    rep-system-managed: "true"
+    rep-workload: namespace-jkeg4mw
+    rep-workloadid: 5pk0lk6
+  name: ns-930181590
+  project: defaultproject
+spec: {}
